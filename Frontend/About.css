@@ -1,0 +1,128 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f9fafb;
+}
+
+/* --- NAVBAR CSS --- */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.6em 2em;
+    background: #fff;
+    box-shadow: 0 2px 12px #e5e5e588;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: bold;
+    color: #2563eb;
+    font-size: 1.22em;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 1.15em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.46em 1.05em;
+    border-radius: 20px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background: linear-gradient(90deg, #38bdf8, #6366f1 60%);
+    color: #fff;
+}
+
+/* --- NAVBAR BUTTON STYLES --- */
+.nav-buttons {
+    display: flex;
+    gap: 0.8em;
+}
+
+.btn-nav-outline, .btn-nav-solid {
+    padding: 0.5em 1.2em;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #2563eb;
+    font-size: 0.95em;
+    background-color: transparent;
+}
+
+.btn-nav-outline {
+    color: #2563eb;
+}
+
+.btn-nav-outline:hover {
+    background-color: #2563eb;
+    color: #fff;
+}
+
+.btn-nav-solid {
+    background-color: #2563eb;
+    color: #fff;
+}
+
+.btn-nav-solid:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+/* --- Hero Section for About Page -- EDITED THIS SECTION --- */
+.hero {
+    text-align: center;
+    /* Matched padding from Home page for consistent height */
+    padding: 5em 1em 3.2em 1em;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.blue-text {
+    color: #2563eb;
+}
+
+/* Content sections */
+.content-section {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.content-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.content-section p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #374151;
+    line-height: 1.6;
+}
+
